@@ -1,11 +1,11 @@
-$version = "sc-4.5.1-win32"
+$version = "sc-4.5.4-win32"
 $packDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 Install-ChocolateyZipPackage `
    -PackageName 'sauce-connect' `
    -UnzipLocation "$packDir" `
    -Url "https://saucelabs.com/downloads/$version.zip" `
-   -Checksum '36c9edf1d0212be737bcaa0a25ebb4588e7e39302489620f747c6af14447b695' `
+   -Checksum '4b2baaeb32624aa4e60ea4a2ca51f7c5656d476ba29f650a5dabb0faaf6cb793' `
    -ChecksumType 'sha256'
 
 # avoid name conflict with the Windows Service Control (SC)
