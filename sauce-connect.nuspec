@@ -8,7 +8,6 @@
         <owners>andyli</owners>
         <projectUrl>https://wiki.saucelabs.com/display/DOCS/Sauce+Connect+Proxy</projectUrl>
         <docsUrl>https://wiki.saucelabs.com/display/DOCS/Sauce+Connect+Proxy</docsUrl>
-        <mailingListUrl>https://support.saucelabs.com/hc/en-us/community/topics/115000104148-Sauce-Connect-Proxy</mailingListUrl>
         <packageSourceUrl>https://github.com/andyli/sauce-connect-choco</packageSourceUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <summary>a proxy server that opens a secure connection between a Sauce Labs virtual machine and an application or website on your local machine or behind a corporate firewall</summary>
